@@ -26,7 +26,7 @@ $(function () {
         })
     })
     let audio = document.createElement('audio')
-    audio.src = '//dl.stream.qqmusic.qq.com/C400001XdWPc3zSK8E.m4a?guid=7535486840&vkey=41F9CEB5760C3BC852008A4755723EEB5C1E1FDC2A368ED2191D526B36547889A28BC512FA8724379D49FCF3C4360AC4E4DBD44EE0848701&uin=0&fromtag=38'
+    audio.src = '//pgptqkwq1.bkt.clouddn.com/C400001XdWPc3zSK8E.m4a'
     audio.oncanplay = function(){
         audio.play()
         $('.disc-container').addClass('playing')
