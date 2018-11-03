@@ -94,15 +94,19 @@
     </section>
     <section class="lastestMusic">
         <h2>最新音乐</h2>
-        <ol>
-            <li>
-                <h3>歌曲名1</h3>
-                <p>
-                    <svg class="sq">
-                        <use xlink:href="#icon-sq"></use>
-                    </svg>
-                    演唱者1-专辑1</p>
-                <a href="#">
+        <p id="lastestMusicloading">
+            <img src="./images/loading.gif" alt="">
+        </p>
+        
+        <ol id="lastestMusic"></ol>
+            <!-- <li>
+                <a href="./song.html">
+                    <h3>歌曲名1</h3>
+                    <p>
+                        <svg class="sq">
+                            <use xlink:href="#icon-sq"></use>
+                        </svg>
+                        演唱者1-专辑1</p>
                     <svg class="play">
                         <use xlink:href="#icon-play-circled"></use>
                     </svg>
@@ -191,8 +195,8 @@
                         <use xlink:href="#icon-play-circled"></use>
                     </svg>
                 </a>
-            </li>
-        </ol>
+            </li> -->
+        
     </section>
     <section class="art">
         <div class="logo">
@@ -249,6 +253,8 @@
     </section>
     <script src="//at.alicdn.com/t/font_872693_025n13p3kuqj.js"> 
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

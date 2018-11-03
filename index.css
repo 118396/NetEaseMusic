@@ -41,13 +41,19 @@ section>h2:first-child{
 
 
 .lastestMusic {}
-
+.lastestMusic p{
+    text-align: center;
+}
 .lastestMusic >ol{padding-left:calc(2.6vw + 2px); }
 .lastestMusic > ol >li{
     border-bottom: 1px solid #e2e2e3; 
     padding:1vw 0;
     position: relative;
  }
+ .lastestMusic > ol >li a{
+    text-decoration:none;
+    color: inherit;
+}
 .lastestMusic > ol >li h3{
     font-size: 4.53vw;
 }
