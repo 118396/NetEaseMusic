@@ -114,12 +114,15 @@
     line-height: 24px;
 }
 
+.song-description .lines{
+    transition: transform 0.3s;
+}
 .song-description .lyric {
     height: 72px;
     overflow: hidden;
 }
 
-.song-description p :active {
+.song-description p.active {
     color: white;
 }
 
