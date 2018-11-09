@@ -19,4 +19,11 @@ $(function(){
     }, function () {
 
     })
+    $('.siteNav').on('click','ol.tabItems>li',function(e){
+        let $li = $(e.currentTarget).addClass('active')
+        $li.siblings().removeClass('active')
+        let index = $li.index()
+        $('.tabContont > li').eq(index).addClass('active')
+        .siblings().removeClass('active')
+    })
 })
